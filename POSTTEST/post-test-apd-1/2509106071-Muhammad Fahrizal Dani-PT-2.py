@@ -1,7 +1,7 @@
-nama = input("Masukan Nama Anda: ")
+nama = input("Masukan Nama Lengkap Anda: ")
 nim = input("Masukan Nim Anda: ")
 
-harga = int(input("Masukan harga makanan: "))
+harga = int(input("Masukan harga makanan(Rp. ): "))
 
 menu = ["Pecel Lele", "Mie Ayam", "Nasi Padang"]
 persen_pajak = [5, 8, 10]
