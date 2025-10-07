@@ -32,42 +32,12 @@ else:
         if pilihan == "1":
             nama_barang = "Sofa"
             harga = 500000
-            if total_harga >= 700000:
-                diskon = 0.2
-                diskontext = "Diskon 20%"
-            elif total_harga >= 500000:
-                diskon = 0.08
-                diskontext = "Diskon 8%%"
-            elif total_harga >= 150000:
-                diskontext = "Bonus Kitchen Set Gratis!"
-            else:
-                diskontext = "Tidak Ada"
         elif pilihan == "2":
             nama_barang = "Meja Belajar"
             harga = 250000
-            if total_harga >= 700000:
-                diskon = 0.2
-                diskontext = "Diskon 20%"
-            elif total_harga >= 500000:
-                diskon = 0.08
-                diskontext = "Diskon 8%%"
-            elif total_harga >= 150000:
-                diskontext = "Bonus Kitchen Set Gratis!"
-            else:
-                diskontext = "Tidak Ada"
         elif pilihan == "3":
             nama_barang = "Rak Lemari"
             harga = 150000
-            if total_harga >= 700000:
-                diskon = 0.2
-                diskontext = "Diskon 20%"
-            elif total_harga >= 500000:
-                diskon = 0.08
-                diskontext = "Diskon 8%%"
-            elif total_harga >= 150000:
-                diskontext = "Bonus Kitchen Set Gratis!"
-            else:
-                diskontext = "Tidak Ada"
         elif pilihan == "4":
             ulang = False
             continue
@@ -81,7 +51,6 @@ else:
 
         for i in range(jumlah_barang):
             subtotal_harga = subtotal_harga + harga
-            subtotal_diskon = subtotal_harga - (subtotal_harga * diskon)
 
         total_harga = total_harga + subtotal_harga
 
@@ -89,5 +58,26 @@ else:
         print("===== STRUK PEMBELIAN =====")
         print(f"Jenis Furnitur : {nama_barang}")
         print(f"Jumlah Unit : {jumlah_barang}")
-        print(f"Total Harga : {total_harga:,.0f}")
-        print(f"Bonus Diskon : {diskontext}")
+        print(f"Total Bayar : Rp {total_harga:,.0f}")
+
+    if total_harga >= 700000:
+        diskon = 0.2
+        diskontext = "Diskon 20%"
+    elif total_harga >= 500000:
+        diskon = 0.08
+        diskontext = "Diskon 8%"
+    elif total_harga >= 150000:
+        diskon = 0
+        diskontext = "Bonus Kitchen Set Gratis!"
+    else:
+        diskon = 0
+        diskontext = "Tidak Ada"
+
+    total_akhir = total_harga - (total_harga * diskon)
+
+    print(" ")
+    print("===== STRUK PEMBAYRAN AKHIR =====")
+    print(f"Total Harga : Rp {total_akhir:,.0f}")
+    print(f"Bonus Diskon : {diskontext}")
+
+
