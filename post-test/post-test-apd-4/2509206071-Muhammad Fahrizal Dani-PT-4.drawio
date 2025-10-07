@@ -1,0 +1,478 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="zIyhn86FNgCyAe4vA2jW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-17" target="zBlqA6_Msxz3Qd6FXJYV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zBlqA6_Msxz3Qd6FXJYV-149">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-230" y="764.66" as="targetPoint" />
+            <mxPoint x="-170" y="764.66" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-17" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;while&lt;/span&gt; ulang &lt;span style=&quot;color: #bb9af7;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #ff9e64;&quot;&gt;True&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="715" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-18" target="zBlqA6_Msxz3Qd6FXJYV-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-18" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;===== MENU FURNITUR =====&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;1. Sofa - &amp;nbsp;Rp 500.000/Per unit&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;2. Meja Belajar - Rp 250.000/Per unit&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;3. Rak Lemari - Rp 150.000/Per unit&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;4. Keluar&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;labelBackgroundColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="845" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-22" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="815" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="860" as="sourcePoint" />
+            <mxPoint x="-240" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-25" target="zBlqA6_Msxz3Qd6FXJYV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-25" target="zBlqA6_Msxz3Qd6FXJYV-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-25" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;if&lt;/span&gt; pilihan &lt;span style=&quot;color: #bb9af7;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1010" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-32" target="zBlqA6_Msxz3Qd6FXJYV-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1780" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-32" target="zBlqA6_Msxz3Qd6FXJYV-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-33" target="zBlqA6_Msxz3Qd6FXJYV-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-33" target="zBlqA6_Msxz3Qd6FXJYV-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-33" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;elif&lt;/span&gt; pilihan &lt;span style=&quot;color: #bb9af7;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1010" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-34" target="zBlqA6_Msxz3Qd6FXJYV-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-34" target="zBlqA6_Msxz3Qd6FXJYV-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-34" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;elif&lt;/span&gt; pilihan &lt;span style=&quot;color: #bb9af7;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="1010" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-39" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="1030" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-40" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="1030" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-41" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="1030" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-42" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="1030" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-370" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-70" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-43" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;nama_barang &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;Sofa&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;harga &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ff9e64;&quot;&gt;500000&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="1160" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-45" target="zBlqA6_Msxz3Qd6FXJYV-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-45" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div&gt;nama_barang &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;Rak Lemari&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;harga &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ff9e64;&quot;&gt;150000&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-777.5" y="1160" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1440" y="1065" />
+              <mxPoint x="-1440" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-47" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #2ac3de;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;Pilihan tidak ada!&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;\n&quot;&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="1045" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1440" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1440" y="1175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-670" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-970" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-48" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;ulang &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ff9e64;&quot;&gt;False&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1027.5" y="1160" width="117.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-59" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-60" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="1120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-61" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="1120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-62" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="1120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-64" target="zBlqA6_Msxz3Qd6FXJYV-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-64" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;jumlah_barang&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;input&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;Masukan Jumlah Barang:&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;))&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1240" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-720" y="1260" as="sourcePoint" />
+            <mxPoint x="-680" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-70" target="zBlqA6_Msxz3Qd6FXJYV-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-70" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;subtotal_harga &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ff9e64;&quot;&gt;0&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-72" target="zBlqA6_Msxz3Qd6FXJYV-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-72" target="zBlqA6_Msxz3Qd6FXJYV-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-72" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;for&lt;/span&gt; i &lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;in&lt;/span&gt; &lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;range&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 202, 245);&quot;&gt;jumlah_barang&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-637.5" y="1430" width="245" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-520" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-940" y="1525" />
+              <mxPoint x="-940" y="1400" />
+              <mxPoint x="-520" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-75" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;subtotal_harga&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;subtotal_harga &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;+&lt;/span&gt; harga&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="1495" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-79" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;total_harga&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;total_harga &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;+&lt;/span&gt; subtotal_harga&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="1660" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1440" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1440" y="1830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-81" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #2ac3de;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;===== STRUK PEMBELIAN =====&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;f&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;&quot;Jenis Furnitur : &lt;/span&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 202, 245);&quot;&gt;nama_barang&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;f&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;&quot;Jumlah Unit : &lt;/span&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(192, 202, 245);&quot;&gt;jumlah_barang&lt;/span&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: #2ac3de;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;f&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;&quot;Total Bayar : Rp &lt;/span&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: #c0caf5;&quot;&gt;total_harga&lt;/span&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;:,.0f}&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;labelBackgroundColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="1780" width="685" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-790" y="1800" as="sourcePoint" />
+            <mxPoint x="-750" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.518;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-79" target="zBlqA6_Msxz3Qd6FXJYV-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-44" target="zBlqA6_Msxz3Qd6FXJYV-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-44" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div&gt;nama_barang &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;Meja Belajar&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;harga &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ff9e64;&quot;&gt;250000&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-482.5" y="1160" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-32" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;elif&lt;/span&gt; pilihan &lt;span style=&quot;color: #bb9af7;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="1010" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zBlqA6_Msxz3Qd6FXJYV-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="914.75" y="676" as="targetPoint" />
+            <mxPoint x="914.8409090909086" y="646" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-104" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="866" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-105" value="&lt;div style=&quot;color: rgb(76, 83, 115); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;data_nama &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;Muhammad Fahrizal Dani&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(76, 83, 115); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;data_nim &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;2509106071&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(76, 83, 115); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;kondisi_login &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 158, 100);&quot;&gt;False&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="764.75" y="676" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-107" target="zBlqA6_Msxz3Qd6FXJYV-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="916" y="876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-107" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;for&lt;/span&gt;&lt;span style=&quot;color: rgb(169, 177, 214);&quot;&gt; i &lt;/span&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;in&lt;/span&gt;&lt;span style=&quot;color: rgb(169, 177, 214);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;range&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 158, 100);&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="817.25" y="776" width="197.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-105" target="zBlqA6_Msxz3Qd6FXJYV-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915.9000000000001" y="773.84" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-109" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="828.75" y="876" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-110" value="input&amp;nbsp;&lt;div&gt;nama &amp;amp; password&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;" vertex="1" parent="zBlqA6_Msxz3Qd6FXJYV-109">
+          <mxGeometry x="10" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zBlqA6_Msxz3Qd6FXJYV-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint x="40" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-114" target="zBlqA6_Msxz3Qd6FXJYV-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="871" y="1155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-114" target="zBlqA6_Msxz3Qd6FXJYV-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="914.75" y="1166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-114" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;if&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;nama &lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;==&lt;/span&gt; data_nama&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;and&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;password &lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;==&lt;/span&gt; data_nim&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="771" y="956" width="287.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-115" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="918.75" y="1126" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-116" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="731" y="1006" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-118" target="zBlqA6_Msxz3Qd6FXJYV-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-118" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;kondisi_login &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ff9e64;&quot;&gt;True&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="824.75" y="1166" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.042;entryY=0.49;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zBlqA6_Msxz3Qd6FXJYV-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="817.2450000000002" y="811.1399999999999" as="targetPoint" />
+            <mxPoint x="390.3299999999999" y="1034" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="370" y="1034" />
+              <mxPoint x="370" y="810" />
+              <mxPoint x="790" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-120" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #2ac3de;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;Login Gagal Percobaan ke-&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: #c0caf5;&quot;&gt; i&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: #ff9e64;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="401" y="1026" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-122" target="zBlqA6_Msxz3Qd6FXJYV-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="861" y="1405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-122" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;if&lt;/span&gt; kondisi_login &lt;span style=&quot;color: #bb9af7;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #ff9e64;&quot;&gt;False&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="789.88" y="1236" width="249.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-123" target="zBlqA6_Msxz3Qd6FXJYV-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-123" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(42, 195, 222);&quot;&gt;print&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;Gagal login 3 kali,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt; Program berhenti&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(154, 189, 245);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="784.75" y="1373" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="974.75" y="1454.5700000000002" as="sourcePoint" />
+            <mxPoint x="1014.75" y="1454.5700000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.542;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-122" target="zBlqA6_Msxz3Qd6FXJYV-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-126" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="918.75" y="1346" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-127" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="701" y="1256" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-128" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div&gt;total_harga &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ff9e64;&quot;&gt;0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ulang &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ff9e64;&quot;&gt;True&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="511" y="1266" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-110" target="zBlqA6_Msxz3Qd6FXJYV-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="913.75" y="955.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-128" target="zBlqA6_Msxz3Qd6FXJYV-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="1346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zBlqA6_Msxz3Qd6FXJYV-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="664" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-137" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="730" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-146" value="A" style="shape=offPageConnector;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546" y="1346" width="70" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-148" value="A" style="shape=offPageConnector;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="610" width="70" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-149" value="B" style="shape=offPageConnector;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="736.5" width="70" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-150" target="zBlqA6_Msxz3Qd6FXJYV-152">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2032" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-150" value="B" style="shape=offPageConnector;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2067" y="746" width="70" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-152" target="zBlqA6_Msxz3Qd6FXJYV-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-152" target="zBlqA6_Msxz3Qd6FXJYV-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-152" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;if&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;total_harga&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 158, 100);&quot;&gt;700000&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;:&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2108" y="840" width="152" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-153" target="zBlqA6_Msxz3Qd6FXJYV-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-153" target="zBlqA6_Msxz3Qd6FXJYV-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-153" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;if&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;total_harga&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 158, 100);&quot;&gt;700000&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;:&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2380" y="839.5" width="152" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-154" target="zBlqA6_Msxz3Qd6FXJYV-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2768.0357647058827" y="901.5294117647063" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-154" target="zBlqA6_Msxz3Qd6FXJYV-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-154" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;if&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;total_harga&lt;/div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(187, 154, 247);&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 158, 100);&quot;&gt;700000&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;:&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2650" y="839.5" width="152" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-159" target="zBlqA6_Msxz3Qd6FXJYV-173">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2070" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2032" y="1120" />
+              <mxPoint x="-2304" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-159" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;diskon &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 158, 100);&quot;&gt;0.2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(169, 177, 214), rgb(76, 83, 115));&quot;&gt;diskontext &lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(169, 177, 214), rgb(76, 83, 115));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;Diskon 20%&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2137" y="1016" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-161" target="zBlqA6_Msxz3Qd6FXJYV-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-161" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div&gt;diskon &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 158, 100);&quot;&gt;0.08&lt;/span&gt;&lt;/div&gt;&lt;div&gt;diskontext &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;Diskon 8%&lt;/span&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2409" y="1016" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-163" target="zBlqA6_Msxz3Qd6FXJYV-173">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2574" y="1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2580" y="1120" />
+              <mxPoint x="-2304" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-163" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div&gt;diskon &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 158, 100);&quot;&gt;0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;diskontext&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(158, 206, 106);&quot;&gt;Bonus Kitchen Set Gratis!&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(137, 221, 255), rgb(1, 73, 102));&quot;&gt;&quot;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2694" y="1016" width="240" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2300" y="1470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-3080" y="901" />
+              <mxPoint x="-3080" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-165" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(169, 177, 214);&quot;&gt;&lt;div style=&quot;color: light-dark(rgb(169, 177, 214), rgb(76, 83, 115));&quot;&gt;diskon &lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 158, 100);&quot;&gt;0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: light-dark(rgb(169, 177, 214), rgb(76, 83, 115));&quot;&gt;diskontext&lt;/div&gt;&lt;div style=&quot;color: light-dark(rgb(169, 177, 214), rgb(76, 83, 115));&quot;&gt;&lt;span style=&quot;color: rgb(137, 221, 255);&quot;&gt;=&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;Tidak Ada&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3015" y="856" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-167" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2190" y="870" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-168" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2454" y="870" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-169" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2734" y="870" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-170" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2030" y="976" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-171" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2300" y="976" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-172" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2570" y="976" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-173" target="zBlqA6_Msxz3Qd6FXJYV-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-173" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;total_akhir &lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt; total_harga &lt;span style=&quot;color: #89ddff;&quot;&gt;-&lt;/span&gt; &lt;span style=&quot;color: #89ddff;&quot;&gt;(&lt;/span&gt;total_harga &lt;span style=&quot;color: #89ddff;&quot;&gt;*&lt;/span&gt; diskon&lt;span style=&quot;color: #89ddff;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2511" y="1190" width="414" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-178" target="zBlqA6_Msxz3Qd6FXJYV-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-178" value="&lt;div style=&quot;color: rgb(169, 177, 214); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(169, 177, 214); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #2ac3de;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;===== STRUK PEMBAYARAN AKHIR =====&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #2ac3de;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;f&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;&quot;Total Harga : Rp &lt;/span&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: #c0caf5;&quot;&gt;total_akhir&lt;/span&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;:,.0f}&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #2ac3de;&quot;&gt;print&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;f&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;&quot;Bonus Diskon : &lt;/span&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: #c0caf5;&quot;&gt;diskontext&lt;/span&gt;&lt;span style=&quot;color: #bb9af7;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: #9ece6a;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #9abdf5;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;labelBackgroundColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-2580" y="1303" width="550" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2530" y="1330" as="sourcePoint" />
+            <mxPoint x="-2490" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-181" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2092" y="1540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-185" value="C" style="shape=offPageConnector;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="865.75" y="1530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBlqA6_Msxz3Qd6FXJYV-187" target="zBlqA6_Msxz3Qd6FXJYV-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBlqA6_Msxz3Qd6FXJYV-187" value="C" style="shape=offPageConnector;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1890" y="1430" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

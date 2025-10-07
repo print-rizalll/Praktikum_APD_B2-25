@@ -76,7 +76,7 @@ else:
     total_akhir = total_harga - (total_harga * diskon)
 
     print(" ")
-    print("===== STRUK PEMBAYRAN AKHIR =====")
+    print("===== STRUK PEMBAYARAN AKHIR =====")
     print(f"Total Harga : Rp {total_akhir:,.0f}")
     print(f"Bonus Diskon : {diskontext}")
 
