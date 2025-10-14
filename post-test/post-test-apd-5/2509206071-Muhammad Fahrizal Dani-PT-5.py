@@ -2,6 +2,7 @@ import os
 users_db = [
     ["admin", "admin123", "admin"],
     ["user1", "user123", "pengguna"]
+
 ]
 pesawat_db = [
     [1, "Boeing 737 MAX 8", "Komersial", 1250000000, "Tersedia"],
@@ -55,7 +56,7 @@ while menu_login:
 
         if login_berhasil:
             print(f"\nLogin berhasil! Selamat datang, {username_input}.")
-            input("Tekan Enter untuk melanjutkan...")
+            input("Tekan Enter untuk melanjutkan..")
 
             if user_role == "admin":
                 menu_admin = True
@@ -240,3 +241,4 @@ while menu_login:
     else:
         print("Pilihan tidak valid!")
         input("Tekan Enter...")
+
