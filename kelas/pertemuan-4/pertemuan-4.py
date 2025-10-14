@@ -33,15 +33,12 @@
 #         print(f"Angka genap ditemukan: {i}")
 # print("\nProgram selesai.")
 
-# panjang = int(input("Masukan Panjang Segitiga :"))
+panjang = int(input("Masukan Panjang Segitiga :"))
 
-# for i in range(1,panjang+1):
-#     for j in range(2*i-2):
-#         print(" ", end="")
-#     for j in range(2*i-2):w1zw
-#         print("*", end="")
-#     print("*")
-# print(" ")
+for i in range(1,panjang+1):
+    for j in range(2*i-2):
+        print("*", end="")
+    print("*")
 
 # print(" ")
 
