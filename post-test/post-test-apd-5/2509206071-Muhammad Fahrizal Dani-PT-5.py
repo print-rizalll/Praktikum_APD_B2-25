@@ -159,13 +159,18 @@ while menu_login:
                             input("Tekan Enter...")
                             continue
                         id_hapus = int(id_hapus)
-                        index = next((i for i, p in enumerate(pesawat_db) if p[0] == id_hapus), -1)
-                        if index >= 0:
-                            nama = pesawat_db[index][1]
-                            pesawat_db.pop(index)
+                        found = False
+                        for p in pesawat_db:
+                            if p[0] == id_hapus:
+                                nama = p[1]
+                                found = True
+                                break
+
+                        if found:
+                            pesawat_db = [p for p in pesawat_db if p[0] != id_hapus]
                             print(f"Pesawat '{nama}' berhasil dihapus!")
                         else:
-                            print("ID tidak ditemukan.")
+                            print("ID tidak ditemukan.")  
                         input("Tekan Enter untuk kembali...")
 
                     elif pilihan_admin == "5":
