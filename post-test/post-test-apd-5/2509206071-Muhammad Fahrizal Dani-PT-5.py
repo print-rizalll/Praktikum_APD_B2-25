@@ -226,7 +226,13 @@ while menu_login:
         confirm = input("Konfirmasi password: ").strip()
         if password != confirm:
             print("Password tidak cocok!")
-        elif any(u[0] == username for u in users_db):
+        duplikat = False
+        for u in users_db:
+            if u[0] == username:
+                duplikat = True
+                break
+
+        if duplikat:
             print("Username sudah terdaftar!")
         else:
             users_db.append([username, password, "pengguna"])
