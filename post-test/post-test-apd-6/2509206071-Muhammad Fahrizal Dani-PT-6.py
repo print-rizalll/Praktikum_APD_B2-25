@@ -99,6 +99,14 @@ while menu_login:
 
                     elif pilihan_admin == "3":
                         os.system('cls' if os.name == 'nt' else 'clear')
+                        print("=== DAFTAR PESAWAT ===")
+                        if not pesawat_db:
+                            print("Belum ada data pesawat.")
+                        else:
+                            print(f"{'ID':<4} {'Nama':<25} {'Tipe':<15} {'Harga':<15} {'Status':<10}")
+                            print("-" * 75)
+                            for id_p, p in pesawat_db.items():
+                                print(f"{id_p:<4} {p['nama']:<25} {p['tipe']:<15} Rp{p['harga']:>12,} {p['status']:<10}")
                         print("=== UPDATE DATA PESAWAT ===")
                         if not pesawat_db:
                             print("Belum ada data.")
@@ -127,6 +135,14 @@ while menu_login:
 
                     elif pilihan_admin == "4":
                         os.system('cls' if os.name == 'nt' else 'clear')
+                        print("=== DAFTAR PESAWAT ===")
+                        if not pesawat_db:
+                            print("Belum ada data pesawat.")
+                        else:
+                            print(f"{'ID':<4} {'Nama':<25} {'Tipe':<15} {'Harga':<15} {'Status':<10}")
+                            print("-" * 75)
+                            for id_p, p in pesawat_db.items():
+                                print(f"{id_p:<4} {p['nama']:<25} {p['tipe']:<15} Rp{p['harga']:>12,} {p['status']:<10}")
                         print("=== HAPUS DATA PESAWAT ===")
                         id_hapus = input("Masukkan ID pesawat yang akan dihapus: ").strip()
                         if not id_hapus.isdigit():
