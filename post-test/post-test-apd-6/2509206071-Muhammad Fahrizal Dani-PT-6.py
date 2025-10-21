@@ -1,8 +1,4 @@
 import os
-
-# ==========================
-# DATABASE
-# ==========================
 users_db = {
     "admin": {"password": "admin123", "role": "admin"},
     "user1": {"password": "user123", "role": "pengguna"}
@@ -28,11 +24,8 @@ pesawat_db = {
 
 user_login = None
 user_role = None
-
-# ==========================
-# PROGRAM UTAMA
-# ==========================
 menu_login = True
+
 while menu_login:
     os.system('cls' if os.name == 'nt' else 'clear')
     print("=" * 60)
@@ -44,9 +37,6 @@ while menu_login:
 
     pilihan_utama = input("\nPilih menu (1-3): ").strip()
 
-    # ==========================
-    # LOGIN
-    # ==========================
     if pilihan_utama == "1":
         os.system('cls' if os.name == 'nt' else 'clear')
         print("=" * 60)
@@ -62,9 +52,6 @@ while menu_login:
             print(f"\nLogin berhasil! Selamat datang, {username_input}.")
             input("Tekan Enter untuk melanjutkan...")
 
-            # ==========================
-            # MENU ADMIN
-            # ==========================
             if user_role == "admin":
                 menu_admin = True
                 while menu_admin:
@@ -80,7 +67,6 @@ while menu_login:
 
                     pilihan_admin = input("\nPilih menu (1-5): ").strip()
 
-                    # Tambah
                     if pilihan_admin == "1":
                         os.system('cls' if os.name == 'nt' else 'clear')
                         print("=== TAMBAH PESAWAT ===")
@@ -99,7 +85,6 @@ while menu_login:
                         print(f"Pesawat '{nama}' berhasil ditambahkan!")
                         input("Tekan Enter untuk kembali...")
 
-                    # Lihat
                     elif pilihan_admin == "2":
                         os.system('cls' if os.name == 'nt' else 'clear')
                         print("=== DAFTAR PESAWAT ===")
@@ -112,7 +97,6 @@ while menu_login:
                                 print(f"{id_p:<4} {p['nama']:<25} {p['tipe']:<15} Rp{p['harga']:>12,} {p['status']:<10}")
                         input("\nTekan Enter untuk kembali...")
 
-                    # Update
                     elif pilihan_admin == "3":
                         os.system('cls' if os.name == 'nt' else 'clear')
                         print("=== UPDATE DATA PESAWAT ===")
@@ -141,7 +125,6 @@ while menu_login:
                             print("ID tidak ditemukan!")
                         input("Tekan Enter untuk kembali...")
 
-                    # Hapus
                     elif pilihan_admin == "4":
                         os.system('cls' if os.name == 'nt' else 'clear')
                         print("=== HAPUS DATA PESAWAT ===")
@@ -159,7 +142,6 @@ while menu_login:
                             print("ID tidak ditemukan.")
                         input("Tekan Enter untuk kembali...")
 
-                    # Logout
                     elif pilihan_admin == "5":
                         user_login = None
                         user_role = None
@@ -171,9 +153,6 @@ while menu_login:
                         print("Pilihan tidak valid!")
                         input("Tekan Enter...")
 
-            # ==========================
-            # MENU PENGGUNA
-            # ==========================
             else:
                 menu_user = True
                 while menu_user:
@@ -213,9 +192,6 @@ while menu_login:
             print("Username atau password salah!")
             input("Tekan Enter untuk kembali...")
 
-    # ==========================
-    # REGISTER
-    # ==========================
     elif pilihan_utama == "2":
         os.system('cls' if os.name == 'nt' else 'clear')
         print("=== REGISTER PENGGUNA BARU ===")
@@ -231,9 +207,6 @@ while menu_login:
             print("Registrasi berhasil!")
         input("Tekan Enter untuk kembali...")
 
-    # ==========================
-    # KELUAR
-    # ==========================
     elif pilihan_utama == "3":
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Terima kasih telah menggunakan program ini!")
