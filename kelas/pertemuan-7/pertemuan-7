@@ -1,0 +1,49 @@
+# # def menu():
+# #     print("=== Menu Utama ===")
+# #     print("1. Tambah Data")
+# #     print("2. Hapus Data")
+# #     print("3. Tampilkan Data")
+# #     print("4. Keluar")
+# #     pilihan = input("Pilih menu (1-4): ")
+# #     return pilihan
+
+# # def tambah_data():
+# #     print("Menambahkan data")
+# #     print("Data berhasil ditambahkan")
+    
+# # def hapus_data():
+# #     print("Menghapus data")
+# #     print("Data berhasil dihapus")
+
+# # def tampilkan_data():
+# #     print("Menampilkan data")
+# #     print("Data ditampilkan")
+
+# # while True:
+# #     pilihan = menu()
+# #     if pilihan == '1':
+# #         tambah_data()
+# #     elif pilihan == '2':
+# #         hapus_data()
+# #     elif pilihan == '3':
+# #         tampilkan_data()
+# #     elif pilihan == '4':
+# #         print("Keluar dari program")
+# #         break
+# #     else:
+# #         print("Pilihan tidak valid, silakan coba lagi.")
+
+
+
+# def nilaisisi():
+#     sisi = 10
+#     return
+
+
+# luas_persegi = sisi * sisi
+
+def lpersegi(s):
+    Luas = s*s
+    return Luas
+
+print(lpersegi(10))
