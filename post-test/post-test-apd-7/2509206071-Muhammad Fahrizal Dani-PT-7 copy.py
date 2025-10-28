@@ -1,5 +1,6 @@
 import os
 
+# ========== VARIABEL GLOBAL ==========
 users_db = {
     "admin": {"password": "admin123", "role": "admin"},
     "user1": {"password": "user123", "role": "pengguna"}
@@ -25,6 +26,7 @@ pesawat_db = {
 
 user_session = {"username": None, "role": None}
 
+# ========== FUNGSI DENGAN PARAMETER ==========
 def validasi_login(username, password):
     try:
         valid = username in users_db and users_db[username]["password"] == password
@@ -41,6 +43,7 @@ def cari_pesawat(keyword):
     except:
         return {}
 
+# ========== FUNGSI TANPA PARAMETER ==========
 def hitung_total_pesawat():
     try:
         total = len(pesawat_db)
@@ -55,24 +58,7 @@ def get_next_id():
     except:
         return 1
 
-def hitung_total_harga_rekursif(data_list, index=0):
-    try:
-        if index >= len(data_list):
-            return 0
-        return data_list[index]["harga"] + hitung_total_harga_rekursif(data_list, index + 1)
-    except:
-        return 0
-
-def tampilkan_pesawat_rekursif(data_items, index=0):
-    try:
-        if index >= len(data_items):
-            return
-        id_p, p = data_items[index]
-        print(f"{id_p:<4} {p['nama']:<25} {p['tipe']:<15} Rp{p['harga']:>12,} {p['status']:<10}")
-        tampilkan_pesawat_rekursif(data_items, index + 1)
-    except:
-        pass
-
+# ========== PROSEDUR ==========
 def tampilkan_header(judul):
     print("=" * 60)
     print(judul.center(60))
@@ -85,24 +71,23 @@ def tampilkan_daftar_pesawat():
             return
         print(f"{'ID':<4} {'Nama':<25} {'Tipe':<15} {'Harga':<15} {'Status':<10}")
         print("-" * 75)
-        data_items = list(pesawat_db.items())
-        tampilkan_pesawat_rekursif(data_items)
-        total = len(pesawat_db)
-        data_list = list(pesawat_db.values())
-        nilai = hitung_total_harga_rekursif(data_list)
+        for id_p, p in pesawat_db.items():
+            print(f"{id_p:<4} {p['nama']:<25} {p['tipe']:<15} Rp{p['harga']:>12,} {p['status']:<10}")
+        total, nilai = hitung_total_pesawat()
         print(f"Total: {total} unit | Nilai: Rp{nilai:,}")
     except Exception as e:
         print(f"Error: {e}")
 
+# ========== MENU ADMIN ==========
 def menu_admin():
     while True:
         try:
             os.system('cls' if os.name == 'nt' else 'clear')
             tampilkan_header(f"MENU ADMIN - {user_session['username']}")
             print("1. Tambah  2. Lihat  3. Cari  4. Update  5. Hapus  6. Logout")
-
+            
             pil = input("\nPilih: ").strip()
-
+            
             if pil == "1":
                 os.system('cls' if os.name == 'nt' else 'clear')
                 tampilkan_header("TAMBAH PESAWAT")
@@ -132,8 +117,8 @@ def menu_admin():
                 if hasil:
                     print(f"{'ID':<4} {'Nama':<25} {'Tipe':<15} {'Harga':<15}")
                     print("-" * 60)
-                    hasil_items = list(hasil.items())
-                    tampilkan_pesawat_rekursif(hasil_items)
+                    for id_p, p in hasil.items():
+                        print(f"{id_p:<4} {p['nama']:<25} {p['tipe']:<15} Rp{p['harga']:>12,}")
                 else:
                     print("Tidak ditemukan.")
                 input("\nEnter...")
@@ -183,6 +168,7 @@ def menu_admin():
             print(f"Error: {e}")
             input("Enter...")
 
+# ========== MENU PENGGUNA ==========
 def menu_pengguna():
     while True:
         try:
@@ -205,8 +191,8 @@ def menu_pengguna():
                 
                 if hasil:
                     print(f"{'ID':<4} {'Nama':<25} {'Tipe':<15}")
-                    hasil_items = list(hasil.items())
-                    tampilkan_pesawat_rekursif(hasil_items)
+                    for id_p, p in hasil.items():
+                        print(f"{id_p:<4} {p['nama']:<25} {p['tipe']:<15}")
                 else:
                     print("Tidak ditemukan.")
                 input("\nEnter...")
@@ -218,6 +204,7 @@ def menu_pengguna():
             print(f"Error: {e}")
             input("Enter...")
 
+# ========== MENU UTAMA ==========
 def menu_utama():
     while True:
         try:
@@ -265,6 +252,7 @@ def menu_utama():
             print(f"Error: {e}")
             input("Enter...")
 
+# ========== JALANKAN PROGRAM ==========
 if __name__ == "__main__":
     try:
         menu_utama()
