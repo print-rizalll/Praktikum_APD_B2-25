@@ -1,6 +1,5 @@
 import os
 
-# ========== VARIABEL GLOBAL ==========
 users_db = {
     "admin": {"password": "admin123", "role": "admin"},
     "user1": {"password": "user123", "role": "pengguna"}
@@ -26,7 +25,6 @@ pesawat_db = {
 
 user_session = {"username": None, "role": None}
 
-# ========== FUNGSI DENGAN PARAMETER ==========
 def validasi_login(username, password):
     try:
         valid = username in users_db and users_db[username]["password"] == password
@@ -43,7 +41,6 @@ def cari_pesawat(keyword):
     except:
         return {}
 
-# ========== FUNGSI TANPA PARAMETER ==========
 def hitung_total_pesawat():
     try:
         total = len(pesawat_db)
@@ -58,7 +55,6 @@ def get_next_id():
     except:
         return 1
 
-# ========== PROSEDUR ==========
 def tampilkan_header(judul):
     print("=" * 60)
     print(judul.center(60))
@@ -78,7 +74,6 @@ def tampilkan_daftar_pesawat():
     except Exception as e:
         print(f"Error: {e}")
 
-# ========== MENU ADMIN ==========
 def menu_admin():
     while True:
         try:
@@ -168,8 +163,7 @@ def menu_admin():
             print(f"Error: {e}")
             input("Enter...")
 
-# ========== MENU PENGGUNA ==========
-def menu_pengguna():
+def menu_user():
     while True:
         try:
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -204,7 +198,6 @@ def menu_pengguna():
             print(f"Error: {e}")
             input("Enter...")
 
-# ========== MENU UTAMA ==========
 def menu_utama():
     while True:
         try:
@@ -226,7 +219,7 @@ def menu_utama():
                     user_session["role"] = data["role"]
                     print(f"Login berhasil!")
                     input("Enter...")
-                    menu_admin() if data["role"] == "admin" else menu_pengguna()
+                    menu_admin() if data["role"] == "admin" else menu_user()
                 else:
                     print("Login gagal!")
                     input("Enter...")
@@ -252,7 +245,6 @@ def menu_utama():
             print(f"Error: {e}")
             input("Enter...")
 
-# ========== JALANKAN PROGRAM ==========
 if __name__ == "__main__":
     try:
         menu_utama()
