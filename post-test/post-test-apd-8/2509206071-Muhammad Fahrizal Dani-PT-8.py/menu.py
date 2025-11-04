@@ -9,8 +9,8 @@ def menu_admin():
             clear_screen()
             tampilkan_header(f"MENU ADMIN - {user_session['username']}")
             print("\n┌─────────────────────────────────────────────────────────────────────────────┐")
-            print("│  1. Tambah Pesawat    2. Lihat Pesawat    3. Cari Pesawat                  │")
-            print("│  4. Update Pesawat    5. Hapus Pesawat    6. Logout                        │")
+            print("│  1. Tambah Pesawat    2. Lihat Pesawat    3. Cari Pesawat                   │")
+            print("│  4. Update Pesawat    5. Hapus Pesawat    6. Logout                         │")
             print("└─────────────────────────────────────────────────────────────────────────────┘")
             
             pil = input("\n» Pilih menu: ").strip()
@@ -110,7 +110,7 @@ def menu_user():
             clear_screen()
             tampilkan_header(f"MENU PENGGUNA - {user_session['username']}")
             print("\n┌─────────────────────────────────────────────────────────────────────────────┐")
-            print("│  1. Lihat Pesawat    2. Cari Pesawat    3. Logout                          │")
+            print("│  1. Lihat Pesawat    2. Cari Pesawat    3. Logout                           │")
             print("└─────────────────────────────────────────────────────────────────────────────┘")
             
             pil = input("\n» Pilih menu: ").strip()
@@ -148,7 +148,7 @@ def menu_utama():
             clear_screen()
             tampilkan_header("✈️ SISTEM MANAJEMEN DATA PESAWAT ✈️")
             print("\n┌─────────────────────────────────────────────────────────────────────────────┐")
-            print("│  1. Login    2. Register    3. Keluar                                      │")
+            print("│  1. Login    2. Register    3. Keluar                                       │")
             print("└─────────────────────────────────────────────────────────────────────────────┘")
             
             pil = input("\n» Pilih menu: ").strip()
