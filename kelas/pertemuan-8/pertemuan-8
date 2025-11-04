@@ -1,0 +1,23 @@
+# while True:
+#     from datetime import datetime
+#     print(datetime.now())
+
+# import inquirer
+
+# pertanyaan = [
+# inquirer.List(
+# 'size',
+# message="What size do you need?",
+# choices=['Jumbo', 'Large', 'Standard', 'Medium', 'Small', 'Micro'],
+# ),
+# ]
+# # mendapatkan jawaban
+# answer = inquirer.prompt(pertanyaan)
+# print(answer) # Output dalam bentuk Dictionary {'size': 'Large'}
+# print(answer['size']) # Ambil value dari key 'size' (Large)
+
+import random
+
+karakter = "abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&"
+
+print(random.choice(karakter,12))
